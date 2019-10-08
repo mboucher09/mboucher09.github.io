@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>My First Webpage</title>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Marissa Boucher - Assignment2</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/1af38d24e7.js" crossorigin="anonymous"></script>
+
+    <style>
+    body{
+        font-family: Arial, White;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .header{
+        position: fixed;
+        left:30%;
+        top: 30%;
+        color: white;
+        width: 100%;
+        height: auto;
+    }
+    p {
+        margin-top: 5px;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    nav ul li a{
+        color: white;
+        padding: 10px;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 5px;
+    }
+    .options {
+        position: fixed;
+        top:10%;
+        right: 10%;
+        color: white;
+        padding: 10px;
+    }
+    .main {
+        margin: auto;
+        width:80%;
+    }
+    </style>
 </head>
-<body>
-    <!--This is a comment-->
-    <h1> Marissa Boucher</h1>
+
+<body class="main"> 
+    
+
+    <nav class="options">
+            <ul>
+                <li><i class="far fa-smile"><a href="about_me.html">About Me</a></i></li>
+                <li><i class="fas fa-paperclip"><a href="https://docdro.id/3K8Jj7h">Resume</a></i></li>
+                <li><i class="fas fa-camera"><a href="hobbies.html">Photos</a></i></li>
+                <li><i class="fas fa-hiking"><a href="clickmap.html">Travels</a></i></li>
+            </ul>
+            <style>
+                nav.options li{color: white;}
+                </style>
+            
+        </nav>
+
+	<div class="header">
+		<h1>Marissa Boucher:</h1>
+		<p>
+			Programmer | Photographer | Claims Analyst
+		</p>
+
+    </div>
 </body>
 </html>
-
-
